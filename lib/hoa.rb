@@ -15,6 +15,6 @@ def add_character(show, name)
 }
 add_character[show]<< name
 
-return add_character
+return add_character[show]
   
 end
